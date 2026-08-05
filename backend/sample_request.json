@@ -1,0 +1,132 @@
+{
+  "job_title": "Full Stack Developer",
+  "resume_data": {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "+1-234-567-8900",
+    "location": "San Francisco, CA",
+    "summary": "Experienced software engineer with 5+ years in full-stack development. Specialized in Python backend and React frontend. Proven track record of building scalable systems serving millions of users.",
+    "experience": [
+      {
+        "company": "Tech Corp",
+        "position": "Senior Backend Engineer",
+        "duration": "2020-2024",
+        "description": "Led Python backend development using FastAPI and PostgreSQL. Designed microservices architecture handling 10M+ daily requests. Mentored 3 junior developers.",
+        "achievements": [
+          "Reduced API latency by 40% through optimization",
+          "Implemented comprehensive test suite (95% coverage)",
+          "Led successful migration to Kubernetes reducing infrastructure costs by 30%",
+          "Designed real-time notification system serving 100K+ users"
+        ]
+      },
+      {
+        "company": "StartupXYZ",
+        "position": "Full Stack Engineer",
+        "duration": "2018-2020",
+        "description": "Built full-stack web applications using React and Node.js for early-stage SaaS startup",
+        "achievements": [
+          "Developed customer dashboard used by 10K+ active users",
+          "Implemented real-time collaboration features",
+          "Reduced bundle size by 45% improving load times",
+          "Increased test coverage from 20% to 85%"
+        ]
+      },
+      {
+        "company": "StartupABC",
+        "position": "Junior Developer",
+        "duration": "2016-2018",
+        "description": "Developed features for mobile app and web platform",
+        "achievements": [
+          "Built iOS app reaching 50K downloads",
+          "Contributed to API development",
+          "Mentored by senior engineers"
+        ]
+      }
+    ],
+    "skills": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Git",
+      "REST APIs",
+      "GraphQL",
+      "Database Design",
+      "System Design",
+      "Redis",
+      "Celery"
+    ],
+    "education": [
+      {
+        "school": "State University",
+        "degree": "BS Computer Science",
+        "year": "2018",
+        "gpa": "3.8",
+        "relevant_coursework": "Data Structures, Algorithms, Database Systems, Web Development"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect",
+        "year": "2022"
+      },
+      {
+        "name": "Docker Certified Associate",
+        "year": "2021"
+      }
+    ],
+    "projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "Built scalable e-commerce backend API handling millions of transactions",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "Redis",
+          "Kubernetes"
+        ],
+        "impact": "Served 100K+ concurrent users with 99.9% uptime",
+        "timeline": "2021-2023"
+      },
+      {
+        "name": "Real-time Analytics Dashboard",
+        "description": "Developed real-time data visualization platform using React and WebSockets",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "WebSockets",
+          "Node.js"
+        ],
+        "impact": "Reduced reporting latency from hours to milliseconds",
+        "timeline": "2020-2021"
+      },
+      {
+        "name": "Microservices Migration",
+        "description": "Led migration of monolithic application to microservices architecture",
+        "technologies": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "gRPC"
+        ],
+        "impact": "Enabled independent scaling and deployment of services",
+        "timeline": "2022-2023"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Conversational"
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "overall_match": 88,
+  "summary": "Excellent candidate match for Full Stack Developer role. Strong backend experience with Python and modern frontend skills with React. Demonstrated system design capabilities and team leadership experience. Some gaps in certain cloud technologies.",
+  "strengths": [
+    "5+ years production experience in full-stack development",
+    "Expert-level Python backend development with FastAPI",
+    "Strong React and TypeScript frontend skills",
+    "Proven system design and architecture capabilities",
+    "Experience leading teams and mentoring junior developers",
+    "DevOps knowledge with Docker and Kubernetes",
+    "AWS cloud platform experience",
+    "Excellent problem-solving and optimization skills"
+  ],
+  "weaknesses": [
+    "Limited experience with certain cloud services (GCP, Azure)",
+    "No mobile development background (iOS/Android)",
+    "GraphQL experience appears limited",
+    "No machine learning or AI integration experience mentioned",
+    "Limited enterprise framework experience (Spring, .NET)"
+  ],
+  "missing_skills": [
+    "Google Cloud Platform",
+    "Apache Kafka",
+    "GraphQL",
+    "Terraform",
+    "Jenkins CI/CD"
+  ],
+  "recommended_skills": [
+    "Advanced GraphQL patterns",
+    "Infrastructure as Code (Terraform)",
+    "Advanced Kubernetes operations",
+    "Message queue systems (Kafka, RabbitMQ)",
+    "API Gateway patterns (Kong, AWS API Gateway)"
+  ],
+  "project_analysis": [
+    {
+      "project_name": "E-commerce Platform",
+      "relevance": "high",
+      "impact": "Built scalable backend serving 100K+ concurrent users with 99.9% uptime. Demonstrates ability to handle production-scale systems.",
+      "skills_demonstrated": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Kubernetes",
+        "System scalability",
+        "High availability"
+      ],
+      "improvement_suggestions": [
+        "Add specific database query optimization techniques used",
+        "Include caching strategy details (Redis usage patterns)",
+        "Mention monitoring and alerting setup",
+        "Add metrics on cost optimization"
+      ]
+    },
+    {
+      "project_name": "Real-time Analytics Dashboard",
+      "relevance": "high",
+      "impact": "Reduced reporting latency from hours to milliseconds using real-time technologies. Shows frontend expertise and optimization mindset.",
+      "skills_demonstrated": [
+        "React",
+        "TypeScript",
+        "WebSockets",
+        "Node.js",
+        "Real-time systems",
+        "Performance optimization"
+      ],
+      "improvement_suggestions": [
+        "Specify number of concurrent users handled",
+        "Include testing strategy details",
+        "Add information about data refresh frequency",
+        "Mention security considerations for real-time data"
+      ]
+    },
+    {
+      "project_name": "Microservices Migration",
+      "relevance": "high",
+      "impact": "Successfully migrated monolithic application enabling independent scaling. Demonstrates architectural thinking and complex project management.",
+      "skills_demonstrated": [
+        "System architecture",
+        "Docker",
+        "Kubernetes",
+        "gRPC",
+        "Microservices patterns",
+        "Refactoring"
+      ],
+      "improvement_suggestions": [
+        "Include migration duration and team size",
+        "Add performance improvements post-migration",
+        "Mention rollback strategy employed",
+        "Detail testing approach for distributed systems"
+      ]
+    }
+  ],
+  "experience_analysis": [
+    {
+      "company": "Tech Corp",
+      "role": "Senior Backend Engineer",
+      "duration": "2020-2024",
+      "relevance": "high",
+      "key_achievements": [
+        "40% latency reduction through optimization",
+        "95% test coverage implementation",
+        "30% infrastructure cost reduction",
+        "Real-time system serving 100K+ users"
+      ],
+      "transferable_skills": [
+        "Technical leadership",
+        "System architecture",
+        "Performance optimization",
+        "Mentoring",
+        "DevOps",
+        "Scalable systems design"
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "role": "Full Stack Engineer",
+      "duration": "2018-2020",
+      "relevance": "high",
+      "key_achievements": [
+        "10K+ active user dashboard",
+        "Real-time feature development",
+        "45% bundle size reduction",
+        "Test coverage increase from 20% to 85%"
+      ],
+      "transferable_skills": [
+        "Full-stack development",
+        "React expertise",
+        "Frontend optimization",
+        "Performance tuning",
+        "Test automation",
+        "Startup agility"
+      ]
+    },
+    {
+      "company": "StartupABC",
+      "role": "Junior Developer",
+      "duration": "2016-2018",
+      "relevance": "medium",
+      "key_achievements": [
+        "iOS app with 50K downloads",
+        "API contribution",
+        "Mentorship experience"
+      ],
+      "transferable_skills": [
+        "Cross-platform development",
+        "Learning agility",
+        "API development",
+        "Team collaboration"
+      ]
+    }
+  ],
+  "resume_improvements": [
+    "Add specific performance metrics for API endpoints (response time, throughput)",
+    "Quantify team impact: number of developers managed, code review efficiency",
+    "Include information about mentoring outcomes (junior developers promoted/hired elsewhere)",
+    "Add deployment frequency and release process improvements",
+    "Specify database optimization techniques (indexing, query plans)",
+    "Include incident response and on-call experience",
+    "Add cross-functional collaboration examples (Product, Design, Operations)",
+    "Mention code quality metrics (technical debt reduction)",
+    "Detail CI/CD pipeline improvements and automation",
+    "Include security improvements or compliance work"
+  ],
+  "learning_roadmap": [
+    {
+      "skill": "Advanced GraphQL",
+      "priority": "high",
+      "timeframe": "2-3 months",
+      "resources": [
+        "GraphQL in Depth course (Frontend Masters)",
+        "Apollo Server documentation",
+        "Real-world GraphQL patterns article series",
+        "Build a GraphQL API project"
+      ]
+    },
+    {
+      "skill": "Infrastructure as Code (Terraform)",
+      "priority": "high",
+      "timeframe": "2-3 months",
+      "resources": [
+        "Terraform official documentation",
+        "HashiCorp Terraform Associate exam",
+        "Build infrastructure for current projects",
+        "GitHub Infrastructure as Code examples"
+      ]
+    },
+    {
+      "skill": "Message Queue Systems (Kafka)",
+      "priority": "medium",
+      "timeframe": "1-2 months",
+      "resources": [
+        "Apache Kafka documentation",
+        "Confluent Developer courses",
+        "Build event-driven microservices",
+        "Real-world streaming examples"
+      ]
+    },
+    {
+      "skill": "Google Cloud Platform",
+      "priority": "medium",
+      "timeframe": "2 months",
+      "resources": [
+        "Google Cloud Fundamentals course",
+        "GCP Associate Cloud Engineer certification",
+        "Migrate a project to GCP",
+        "GCP best practices documentation"
+      ]
+    },
+    {
+      "skill": "Advanced Kubernetes",
+      "priority": "medium",
+      "timeframe": "1-2 months",
+      "resources": [
+        "Kubernetes official documentation",
+        "CKA exam preparation",
+        "Build custom operators",
+        "Advanced networking and security"
+      ]
+    }
+  ],
+  "interview_readiness": "Very well prepared for Full Stack Developer role interview. Strong technical depth across backend and frontend. Recommend preparing for: 1) System design questions (leverage microservices experience), 2) Behavioral questions about team leadership and mentoring, 3) Deep dives on optimization and scalability decisions, 4) Discussion of technical challenges overcome. Areas to review: cloud platforms beyond AWS, newer frontend frameworks and patterns, event-driven architecture. Overall confidence level: High. Estimated interview success: 85-90%.",
+  "suitable_roles": [
+    "Senior Full Stack Engineer",
+    "Backend Architect",
+    "Platform Engineer",
+    "Technical Lead",
+    "Engineering Manager",
+    "Site Reliability Engineer",
+    "Solutions Architect",
+    "Principal Engineer"
+  ]
+}
