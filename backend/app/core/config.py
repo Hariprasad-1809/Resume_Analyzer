@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     ENV: str = "development"
     PROJECT_NAME: str = "Resume Role Match Analyzer"
     DATABASE_URL: str = "sqlite:///./sql_app.db"
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000"]
+    ALLOWED_ORIGINS: List[str] = ["*"]
     MAX_UPLOAD_SIZE: int = 5242880
 
     openrouter_api_key: Optional[str] = None
