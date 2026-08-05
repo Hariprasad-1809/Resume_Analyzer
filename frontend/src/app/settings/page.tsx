@@ -10,7 +10,7 @@ export default function SettingsPage() {
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
-    const url = localStorage.getItem("settings_api_url") || "http://localhost:8000";
+    const url = localStorage.getItem("settings_api_url") || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
     const skill = localStorage.getItem("settings_skill_weight") || "40";
     const exp = localStorage.getItem("settings_exp_weight") || "25";
     const proj = localStorage.getItem("settings_proj_weight") || "15";

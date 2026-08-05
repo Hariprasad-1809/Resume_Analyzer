@@ -21,9 +21,9 @@ export default function HistoryPage() {
 
   const getApiUrl = () => {
     if (typeof window !== "undefined") {
-      return localStorage.getItem("settings_api_url") || "http://localhost:8000";
+      return localStorage.getItem("settings_api_url") || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
     }
-    return "http://localhost:8000";
+    return process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
   };
 
   useEffect(() => {
