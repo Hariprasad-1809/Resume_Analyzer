@@ -3,7 +3,7 @@
 An AI-powered web application that analyzes a candidate's resume (PDF) against target job roles. Rather than giving a simple ATS keyword percentage, it performs deep semantic parsing, skill extraction, experience matching, title alignment, and optional AI-driven personalized feedback.
 
 ---
-
+Live Link : https://resume-analyzer-swart-two.vercel.app/
 ## ✨ Features
 
 - 📄 **Resume Upload & Parsing**: Parses PDF resumes to extract structured layout, text, contact information, work experience, projects, skills, education, and achievements using PyMuPDF.
