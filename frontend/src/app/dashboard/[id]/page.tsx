@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import axios from "axios";
+import { getApiBaseUrl } from "@/lib/api";
 import {
   ArrowLeft,
   CheckCircle2,
@@ -262,18 +263,11 @@ export default function DashboardPage() {
   const [cardFilter, setCardFilter] = useState<"All" | "High" | "Medium" | "Low">("All");
   const [expandedProjects, setExpandedProjects] = useState<Record<number, boolean>>({});
 
-  const getApiUrl = () => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("settings_api_url") || "http://localhost:8000";
-    }
-    return "http://localhost:8000";
-  };
-
   useEffect(() => {
     if (!id) return;
     const fetchDetail = async () => {
       try {
-        const res = await axios.get(`${getApiUrl()}/api/v1/history/${id}`);
+        const res = await axios.get(`${getApiBaseUrl()}/api/v1/history/${id}`);
         setData(res.data);
       } catch (err) {
         setError("Failed to load evaluation details.");

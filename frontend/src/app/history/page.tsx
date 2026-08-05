@@ -13,23 +13,18 @@ interface HistoryRecord {
   filename: string;
 }
 
+import { getApiBaseUrl } from "@/lib/api";
+
 export default function HistoryPage() {
   const [records, setRecords] = useState<HistoryRecord[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [error, setError] = useState<string | null>(null);
 
-  const getApiUrl = () => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("settings_api_url") || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-    }
-    return process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-  };
-
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const res = await axios.get(`${getApiUrl()}/api/v1/history`);
+        const res = await axios.get(`${getApiBaseUrl()}/api/v1/history`);
         setRecords(res.data);
       } catch (err) {
         setError("Failed to retrieve analysis history.");

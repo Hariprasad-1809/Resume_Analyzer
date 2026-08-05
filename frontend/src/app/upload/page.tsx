@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useDropzone } from "react-dropzone";
 import axios from "axios";
 import { UploadCloud, FileText, AlertCircle, Sparkles } from "lucide-react";
+import { getApiBaseUrl } from "@/lib/api";
 
 export default function UploadPage() {
   const router = useRouter();
@@ -14,17 +15,10 @@ export default function UploadPage() {
   const [roles, setRoles] = useState<string[]>([]);
   const [customRole, setCustomRole] = useState("");
 
-  const getApiUrl = () => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("settings_api_url") || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-    }
-    return process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-  };
-
   useEffect(() => {
     const fetchRoles = async () => {
       try {
-        const res = await axios.get(`${getApiUrl()}/api/v1/resume/roles`);
+        const res = await axios.get(`${getApiBaseUrl()}/api/v1/resume/roles`);
         setRoles(res.data);
       } catch (err) {
         setRoles(["Software Engineer", "Frontend Developer", "Backend Developer", "Data Scientist", "DevOps Engineer"]);
@@ -75,7 +69,7 @@ export default function UploadPage() {
     formData.append("job_title", selectedTitle);
 
     try {
-      const res = await axios.post(`${getApiUrl()}/api/v1/resume/analyze`, formData, {
+      const res = await axios.post(`${getApiBaseUrl()}/api/v1/resume/analyze`, formData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
       router.push(`/dashboard/${res.data.id}`);

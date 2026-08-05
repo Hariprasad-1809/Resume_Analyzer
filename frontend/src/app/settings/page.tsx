@@ -2,15 +2,17 @@
 import React, { useEffect, useState } from "react";
 import { Sliders, Save, Database, Shield } from "lucide-react";
 
+import { getApiBaseUrl } from "@/lib/api";
+
 export default function SettingsPage() {
-  const [apiUrl, setApiUrl] = useState("http://localhost:8000");
+  const [apiUrl, setApiUrl] = useState("https://resume-analyzer-gqte.onrender.com");
   const [skillWeight, setSkillWeight] = useState(40);
   const [expWeight, setExpWeight] = useState(25);
   const [projWeight, setProjWeight] = useState(15);
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
-    const url = localStorage.getItem("settings_api_url") || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+    const url = localStorage.getItem("settings_api_url") || getApiBaseUrl();
     const skill = localStorage.getItem("settings_skill_weight") || "40";
     const exp = localStorage.getItem("settings_exp_weight") || "25";
     const proj = localStorage.getItem("settings_proj_weight") || "15";
