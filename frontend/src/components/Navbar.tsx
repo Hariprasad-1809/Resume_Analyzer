@@ -22,9 +22,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center gap-2 text-foreground font-semibold tracking-wide">
-              <Sparkles className="h-5 w-5 text-primary" />
-              <span>RoleMatch AI</span>
+            <Link href="/" className="flex items-center gap-2.5 text-foreground font-bold tracking-tight">
+              <img src="/icon.svg" alt="RoleMatch AI Logo" className="h-7 w-7 rounded-lg shadow-sm" />
+              <span className="bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">RoleMatch AI</span>
             </Link>
           </div>
           <nav className="hidden md:flex items-center space-x-8">

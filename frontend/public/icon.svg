@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="sparkleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Rounded Container Base -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Resume Document Sheet -->
+  <rect x="128" y="112" width="256" height="300" rx="24" fill="#FFFFFF" fill-opacity="0.96" />
+  
+  <!-- Resume Title & Body Lines -->
+  <rect x="168" y="156" width="120" height="20" rx="10" fill="#4F46E5" />
+  <rect x="168" y="196" width="176" height="16" rx="8" fill="#9CA3AF" />
+  <rect x="168" y="228" width="150" height="16" rx="8" fill="#9CA3AF" />
+  <rect x="168" y="260" width="130" height="16" rx="8" fill="#9CA3AF" />
+  
+  <!-- Checkmark Seal -->
+  <circle cx="304" cy="316" r="44" fill="#10B981" />
+  <path d="M282 316 L298 332 L328 300" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+  <!-- AI Sparkle -->
+  <path d="M380 84 L392 114 L422 126 L392 138 L380 168 L368 138 L338 126 L368 114 Z" fill="url(#sparkleGrad)" filter="url(#glow)" />
+</svg>

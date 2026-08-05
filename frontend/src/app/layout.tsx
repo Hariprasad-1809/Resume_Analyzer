@@ -18,6 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Resume Role Match Analyzer | AI-Powered Match Analysis",
   description: "Upload your resume PDF and analyze how well you match your target job role. Receive explainable match scores, missing skills lists, projects alignment, formatting checks, and course recommendations.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
